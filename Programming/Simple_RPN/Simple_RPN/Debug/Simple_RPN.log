@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\2CHIF\Programming\Simple_RPN\Simple_RPN\main.cpp(30): warning C4715: 'srpn': not all control paths return a value
+  Simple_RPN.vcxproj -> C:\2CHIF\Programming\Simple_RPN\Debug\Simple_RPN.exe
