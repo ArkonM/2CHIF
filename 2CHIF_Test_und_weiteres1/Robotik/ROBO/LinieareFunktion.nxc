@@ -1,0 +1,24 @@
+task main(){
+int Kp = 1000;
+int Ki = 100;
+int Kd = 10000;
+int grau = 45;
+int Tp = 50;
+int integral = 0;
+int fehleralt = 0;
+int derivate = 0;
+SetSensorLight(IN_3);
+while(true){
+    int boden = Sensor(IN_3);
+    int fehler = boden - grau;
+    integral = integral + fehler;
+    derivate = fehler - fehleralt;
+    int drehen = (Kp * fehler) + (Ki * integral) + (Kd * derivate);
+    drehen = drehen/100;
+    int fahrenB = Tp + drehen;
+    int fahrenC = Tp - drehen;
+    OnRev(OUT_B, fahrenB);
+    OnRev(OUT_C, fahrenC);
+    fehleralt = fehler;
+}
+}

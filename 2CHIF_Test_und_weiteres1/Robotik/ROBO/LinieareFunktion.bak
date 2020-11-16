@@ -1,0 +1,15 @@
+task main(){
+int Kp = 10;
+int grau = 49;
+int Tp = 60;
+SetSensorLight(IN_3);
+while(true){
+    int boden = Sensor(IN_3);
+    int fehler = boden - grau;
+    int drehen = Kp * fehler;
+    int fahrenB = Tp + drehen;
+    int fahrenC = Tp - drehen;
+    OnRev(OUT_B, fahrenB);
+    OnRev(OUT_C, fahrenC);
+}
+}

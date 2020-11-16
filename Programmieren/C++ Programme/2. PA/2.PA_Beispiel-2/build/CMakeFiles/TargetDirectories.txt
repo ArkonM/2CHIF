@@ -1,0 +1,3 @@
+/home/armin/Desktop/2CHIF/Programmieren/C++ Programme/2. PA/2.PA_Beispiel-2/build/CMakeFiles/rebuild_cache.dir
+/home/armin/Desktop/2CHIF/Programmieren/C++ Programme/2. PA/2.PA_Beispiel-2/build/CMakeFiles/count.dir
+/home/armin/Desktop/2CHIF/Programmieren/C++ Programme/2. PA/2.PA_Beispiel-2/build/CMakeFiles/edit_cache.dir

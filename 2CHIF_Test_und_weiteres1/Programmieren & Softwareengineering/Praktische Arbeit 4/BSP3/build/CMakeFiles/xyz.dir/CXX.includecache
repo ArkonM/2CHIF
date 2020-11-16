@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/include/class.h
+iostream
+-
+fstream
+-
+
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/src/class.cpp
+../include/class.h
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/include/class.h
+
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/src/main.cpp
+../include/class.h
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/include/class.h
+

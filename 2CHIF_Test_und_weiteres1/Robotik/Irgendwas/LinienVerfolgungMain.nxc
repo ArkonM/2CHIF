@@ -1,0 +1,13 @@
+task main(){
+int lichtwert = 50;
+SetSensorLight(IN_3);
+    while((Sensor(IN_3)<lichtwert) || (Sensor(IN_3) >= lichtwert)){
+        NumOut(0, LCD_LINE1, Sensor(IN_3));
+        while(Sensor(IN_3)<lichtwert){
+            OnFwdReg(OUT_BC, 50, OUT_REGMODE_SYNC);
+        }while(Sensor(IN_3)> lichtwert){
+            OnFwdReg(OUT_B, 23, OUT_REGMODE_SYNC);
+            OnRevReg(OUT_C, 23, OUT_REGMODE_SYNC);
+            }
+    }
+}

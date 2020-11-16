@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/egyptmul.dir/main.cpp.o CMakeFiles/egyptmul.dir/mathutils.cpp.o  -o egyptmul 

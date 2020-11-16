@@ -1,0 +1,19 @@
+Fragen zum Foliensatz 1
+1) Warum kommunizieren wir? Nenne unterschiedliche Gründe für die Kommunikation
+2) Wie hat sich die Reichweite der Kommunikation im Laufe der Zeit verändert?
+3) Wodurch unterscheidet sich verbale, mündliche, Kommunikation von der Kommunikation im Internet?
+4) Erkläre die Begriffe unidirektional, bidirektion, unicast, broadcast und multicast.
+5) Wo siehst du Vorteile durch die digitale Kommunikation und dem Internet
+6) Wo siehst du Nachteile durch die digitale Kommunikation und dem Internet
+7) Was ist ein Chat, Blog, Wiki, Podcast, Webcst, Webinar
+8) Was versteht man unter dem Begriff Kollaboration
+9) Was versteht man unter einem Protokoll?
+10) Nenne die 5 Punkte die für eine erfolgreiche Kommunikation notwendig sind
+11) Aus welchen Elementen besteht ein Netzwerk und was benötigt man noch für eine digitale Kommunikation
+12) Stelle den Ablauf der Kommunikation mittels IM dar
+13) Welche vier Architekturanforderungen wurden an das Internet gestellt
+14) Erkläre den Begriff QoS
+15) Eine Architekturanforderung an das Internet war Sicherheit. Ist das Internet wirklich sicher? Schreibe dazu einige Gedanken auf
+
+
+

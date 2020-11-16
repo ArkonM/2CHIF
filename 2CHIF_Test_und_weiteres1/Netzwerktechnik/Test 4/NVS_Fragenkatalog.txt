@@ -1,0 +1,73 @@
+NVS Fragenkatalog
+
+1.       Was versteht man unter einer Netzwerkarbeitsgruppe?
+
+2.       Nennen 2 Vor- und Nachteile von Arbeitsgruppen.
+
+3.       Wie viele Benutzer können bei einer Arbeitsgruppe auf eine Freigabe zugreifen?
+
+4.       Kann sich ein Benutzer der Arbeitsgruppe an einem anderen PC anmelden? Begründe!
+
+5.       Wodurch unterscheidet sich ein Servernetzwerk von einem Arbeitsgruppennetzwerk?
+
+6.       Nennen 4 Vorteile eines Servernetzwerkes!
+
+7.       Nenne 3 lokale Standartdienste und erkläre diese kurz!
+
+8.       Nenne 3 verschiedene Internetdienste (kurze Erklärung)!
+
+9.       Erkläre den Begriff Windows-Domäne!
+
+10.   Was ist ein Active Directory (AD)?
+
+11.   Welche Voraussetzungen für ein AD müssen erfüllt sein?
+
+12.   Wozu verwendet man Gruppenrichtlinien in einer Domäne? (Beispiele)
+
+13.   Ein AD besteht aus organisatorischen Einheiten.
+Nach welchem Gesichtspunkt kann man das AD aufbauen?
+
+14.   Welche Elemente können in oder auf einer OU abgelegt werden?
+
+15.   Warum benötigt jeder Benutzter ein eigenes Benutzerkonto?
+
+16.   Wie viele Zeichen kann ein eindeutiges Benutzerkonto haben?
+
+17.   Beschreibe den Vorgang der Anmeldung in einer Domäne!
+
+18.   Welche Aufgaben übernehmen Gruppen in einem Netzwerk?
+
+19.   Nenne 2 unterschiedliche Methoden wie man Gruppen einteilen kann.
+
+20.   Wozu dienen globale/ universelle/ domänen lokale Gruppen?
+
+21.   Wie lautet die Microsoft Philosophie bezüglich Benutzer/ Gruppen?
+
+22.   Was versteht man unter Namensauflösung?
+
+23.   Wie viele Zeichen, welche Zeichen, kann ein FQDN – Name enthalten?
+
+24.   Wie viele Zeichen kann ein NetBios – Name enthalten?
+Wofür wird die 16. (letzte) Stelle verwendet?
+
+25.   Welche Methode kann man für statistische IP Zuordnungen anwenden? (Wo liegen diesen Dateien)
+
+26.   Wie lautet der Dienst um Hostnamen aufzulösen? (Vorteile zu der Datei hosts.)
+
+27.   Wozu wird ein WINS - Server verwendet?
+
+28.   Wie ist DNS prinzipiell aufgebaut? (Zeichnung)
+
+29.   Was versteht man unter einen DNS – Namespace (Namensraum)?
+
+30.   Erkläre den Begriff Resolver!
+
+31.   Nenne 4 verschiedene DNS-Einträge und deren Bedeutung!
+
+32.   Wie erfolgt die prinzipielle Namensauflösung (DNS-Caching, Zeichnung, Erklärung)?
+
+33.   Was stellt man mit der TTL Zeit für DNS-Caching ein?
+
+34.   Was versteht man unter einer rekursiven DNS-Abfrage?
+
+35.   Was versteht man unter einer iterativen DNS-Abfrage?

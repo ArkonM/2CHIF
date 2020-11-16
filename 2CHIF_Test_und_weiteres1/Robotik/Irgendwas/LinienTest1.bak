@@ -1,0 +1,14 @@
+task main(){
+
+SetSensorLight(IN_4);
+    while((Sensor(IN_4)<55) || (Sensor(IN_4) >= 55)){
+        NumOut(0, LCD_LINE1, Sensor(IN_4));
+        while(Sensor(IN_4)<55){
+            OnFwdReg(OUT_BC, 60, OUT_REGMODE_SYNC);
+            continue;
+        }while(Sensor(IN_4)>=55){
+            OnFwd(OUT_B, 15);
+            OnFwd(OUT_C, -15);
+            }
+    }
+}

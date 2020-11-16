@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/connect.h
+string
+-
+
+/home/armin/Desktop/2CHIF/Programmieren/C++ Programme/2. PA/2.PA_Beispiel-2/src/2.PA_Beispiel-2.cpp
+connect.h
+-
+iostream
+-
+fstream
+-
+
+/home/armin/Desktop/2CHIF/Programmieren/C++ Programme/2. PA/2.PA_Beispiel-2/src/count.cpp
+connect.h
+/home/armin/Desktop/2CHIF/Programmieren/C++ Programme/2. PA/2.PA_Beispiel-2/src/connect.h
+

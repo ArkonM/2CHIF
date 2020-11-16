@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/count.dir/src/2.PA_Beispiel-2.cpp.o CMakeFiles/count.dir/src/count.cpp.o  -o count 

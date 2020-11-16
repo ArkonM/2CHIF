@@ -1,0 +1,3 @@
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/shuff/Desktop/PA4/BSP3/build/CMakeFiles/xyz.dir

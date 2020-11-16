@@ -1,0 +1,40 @@
+task main(){
+SetSensorLowspeed(IN_4);
+int abstand= 30;
+while(SensorUS(IN_4) > abstand){
+    OnFwd(OUT_AB, 100);
+    if(SensorUS(IN_4) <= abstand){
+         Off(OUT_AB);
+         OnFwd(OUT_A, 60);
+         OnRev(OUT_B, 60);     //Rechts
+         Wait(600);
+         //--------------
+         Off(OUT_AB);
+         OnFwd(OUT_AB, 60);    //Gerade aus
+         Wait(600);
+         //--------------
+         Off(OUT_AB);
+         OnRev(OUT_A, 60);     //Links
+         OnFwd(OUT_B, 60);
+         Wait(600);
+         //--------------
+         Off(OUT_AB);
+         OnFwd(OUT_AB, 60);    //Gerade aus
+         Wait(1500);
+         //--------------
+         Off(OUT_AB);
+         OnRev(OUT_A, 60);     //Links
+         OnFwd(OUT_B, 60);
+         Wait(600);
+         //--------------
+         Off(OUT_AB);
+         OnFwd(OUT_AB, 60);    //Gerade aus
+         Wait(600);
+         //--------------
+         Off(OUT_AB);
+         OnFwd(OUT_A, 60);
+         OnRev(OUT_B, 60);
+         Wait(600);
+    }
+}
+}

@@ -1,0 +1,32 @@
+task main(){
+int lichtwert = 49;
+int i=0;
+SetSensorLight(IN_3);
+    while(true){
+        NumOut(0, LCD_LINE1, Sensor(IN_3));
+        while(Sensor(IN_3)<lichtwert){
+            OnFwd(OUT_BC, 70);
+            i = 0;
+        }while(Sensor(IN_3)> (lichtwert - 1)){
+            OnFwd(OUT_B, 60);
+            OnRev(OUT_C, 60);
+            i++;
+            if(i == 800){
+                 i = 0;
+                 while(Sensor(IN_3)> (lichtwert - 1)){
+                         OnRev(OUT_B, 60);
+                         OnFwd(OUT_C, 60);
+                         i++;
+                         if(i == 800){
+                         i = 0;
+                         continue;
+                         }
+                 }
+                 OnRev(OUT_B, 60);
+                 OnFwd(OUT_C, 60);
+                 Wait(50);
+            }
+            continue;
+            }
+    }
+}

@@ -1,0 +1,386 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__CLSCSMutex3	9	0	0	4	2
+1	__D0SetSensorLowspeed_inline_main	6	1	4	4	2
+2	__DU0SetSensorLowspeed_inline_main	5	1	8	4	5
+3	__D0main	6	1	12	4	36
+4	__RLSBmutex3	9	0	16	4	4
+5	__CLSRMutex3	9	0	20	4	2
+6	__CLSWMutex3	9	0	24	4	2
+7	__signed_stack_001main	6	1	28	4	4
+8	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	32	4	14
+9	__main_7qG2_abstand_7qG2_000	4	1	36	2	3
+10	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	38	1	2
+11	__PFTmp	1	1	39	1	1
+12	__RLSBytesCount3	1	1	40	1	8
+13	__RLSBIterations3	1	1	41	1	4
+14	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	42	1	2
+15	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	43	1	2
+16	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	44	1	4
+17	____initialize_global_data_return	1	1	45	1	3
+18	__constVal15	2	0	46	1	2
+19	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	47	1	2
+20	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	48	1	2
+21	__RLSBResult3	2	1	49	1	7
+22	__constVal3	2	0	50	1	21
+23	__ResetSensorPort	1	1	51	1	3
+24	__ResetSensorTmp	1	1	52	1	2
+25	__constVal1	2	0	53	1	8
+26	__OnRev_Tmp	2	1	54	1	8
+27	__constVal32	2	0	55	1	57
+28	__constVal0	2	1	56	1	69
+29	____ResetSensorSubroutine_return	1	1	57	1	3
+30	__LSWriteOptionsVar	1	1	58	1	2
+31	__constVal96	2	0	59	1	19
+32	____ReadLSBytes3_return	1	1	60	1	4
+33	__constVal63	2	0	61	1	19
+34	__CLSCSArgs3	8	0	3	4	4
+35	__CLSCSArgs3.Result	2	1	64	1	4
+36	__CLSCSArgs3.Port	1	1	65	1	4
+37	__CLSCSArgs3.BytesReady	1	1	66	1	4
+38	__CLSWArgs3	8	0	4	12	5
+39	__CLSWArgs3.Result	2	1	68	1	5
+40	__CLSWArgs3.Port	1	1	69	1	5
+41	__CLSWArgs3.Buffer	7	0	70	4	5
+42	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+43	__CLSWArgs3.ReturnLen	1	1	72	1	5
+44	__CLSRArgs3	8	0	4	12	5
+45	__CLSRArgs3.Result	2	1	76	1	5
+46	__CLSRArgs3.Port	1	1	77	1	5
+47	__CLSRArgs3.Buffer	7	0	78	4	5
+48	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+49	__CLSRArgs3.BufferLen	1	1	80	1	5
+50	__LSWriteOptions	7	0	82	4	1
+51	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+52	__OUT_AB	7	0	84	4	11
+53	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+54	__RLSBbufLSWrite1	7	0	86	4	2
+55	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+56	__RLSReadBuf3	7	0	88	4	10
+57	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+58	__RLSLastGoodRead3	7	0	90	4	2
+59	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	1	0	#line 1 "E:\2CHIF\Robotik\Abstand.nxc"
+0	2	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	1	2	#line 1 "E:\2CHIF\Robotik\Abstand.nxc"
+0	1	2	#line 1 "E:\2CHIF\Robotik\Abstand.nxc"
+0	2	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	1	5	#line 1 "E:\2CHIF\Robotik\Abstand.nxc"
+0	1	5	#line 1 "E:\2CHIF\Robotik\Abstand.nxc"
+0	2	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	7	#line 4523 "NXCDefs.h"
+0	4524	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	9	#line 4523 "NXCDefs.h"
+0	4523	9	#line 4523 "NXCDefs.h"
+0	4524	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	11	#line 4523 "NXCDefs.h"
+0	4524	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	14	#line 4523 "NXCDefs.h"
+0	4524	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	17	#line 4523 "NXCDefs.h"
+0	4524	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	20	#line 4523 "NXCDefs.h"
+0	4523	20	#line 4523 "NXCDefs.h"
+0	4524	20		jmp __004__ASM_Label_37
+0	4523	22	#line 4523 "NXCDefs.h"
+0	4524	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	25	#line 4523 "NXCDefs.h"
+0	4523	25	#line 4523 "NXCDefs.h"
+0	4524	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	27	#line 4428 "NXCDefs.h"
+0	4429	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	31	#line 4428 "NXCDefs.h"
+0	4523	31	#line 4523 "NXCDefs.h"
+0	4524	31	#line 4524 "NXCDefs.h"
+0	4525	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	33	#line 4524 "NXCDefs.h"
+0	4524	33	#line 4524 "NXCDefs.h"
+0	4525	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	36	#line 4524 "NXCDefs.h"
+0	4441	36	#line 4441 "NXCDefs.h"
+0	4442	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	40	#line 4441 "NXCDefs.h"
+0	4524	40	#line 4524 "NXCDefs.h"
+0	4525	40	#line 4525 "NXCDefs.h"
+0	4525	40	#line 4525 "NXCDefs.h"
+0	4459	40	#line 4459 "NXCDefs.h"
+0	4460	40	#pragma macro 4
+0	4460	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4460	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3840	44	#line 3840 "NXCDefs.h"
+0	4459	44	#line 4459 "NXCDefs.h"
+0	4525	44	#line 4525 "NXCDefs.h"
+0	1	44	#line 1 "E:\2CHIF\Robotik\Abstand.nxc"
+0	2	44	#line 2 "E:\2CHIF\Robotik\Abstand.nxc"
+0	3	44		set __main_7qG2_abstand_7qG2_000, 20
+0	2	47	#line 2 "E:\2CHIF\Robotik\Abstand.nxc"
+0	3	47	#line 3 "E:\2CHIF\Robotik\Abstand.nxc"
+0	4	47	#pragma macro 26
+0	4	47		acquire __RLSBmutex3
+0	4	48		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	4	50		set __RLSBytesCount3, 1
+0	4	53		wait2 NA, __constVal15
+0	4	56		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	4	58		index __D0main, __RLSReadBuf3, 65535
+0	4	62		release __RLSBmutex3
+0	3854	63	#line 3854 "E:\2CHIF\Robotik\Abstand.nxc"
+0	3	63	#line 3 "E:\2CHIF\Robotik\Abstand.nxc"
+0	4	63		mov __signed_stack_001main, __D0main
+0	3	65	#line 3 "E:\2CHIF\Robotik\Abstand.nxc"
+0	4	65		mov __D0main, __main_7qG2_abstand_7qG2_000
+0	3	67	#line 3 "E:\2CHIF\Robotik\Abstand.nxc"
+0	4	67		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	4	71	#line 4 "E:\2CHIF\Robotik\Abstand.nxc"
+0	5	71		brtst 4, __ASM_Label_563, __D0main
+0	4	74	#line 4 "E:\2CHIF\Robotik\Abstand.nxc"
+0	5	74		set __D0main, 100
+0	4	77	#line 4 "E:\2CHIF\Robotik\Abstand.nxc"
+0	5	77	#pragma macro 7
+0	5	77		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3870	100	#line 3870 "E:\2CHIF\Robotik\Abstand.nxc"
+0	4	100	#line 4 "E:\2CHIF\Robotik\Abstand.nxc"
+0	5	100	#line 5 "E:\2CHIF\Robotik\Abstand.nxc"
+0	6	100	#pragma macro 26
+0	6	100		acquire __RLSBmutex3
+0	6	101		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	6	103		set __RLSBytesCount3, 1
+0	6	106		wait2 NA, __constVal15
+0	6	109		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	6	111		index __D0main, __RLSReadBuf3, 65535
+0	6	115		release __RLSBmutex3
+0	3873	116	#line 3873 "E:\2CHIF\Robotik\Abstand.nxc"
+0	5	116	#line 5 "E:\2CHIF\Robotik\Abstand.nxc"
+0	6	116		mov __signed_stack_001main, __D0main
+0	5	118	#line 5 "E:\2CHIF\Robotik\Abstand.nxc"
+0	6	118		mov __D0main, __main_7qG2_abstand_7qG2_000
+0	5	120	#line 5 "E:\2CHIF\Robotik\Abstand.nxc"
+0	6	120		cmp 2, __D0main, __signed_stack_001main, __D0main
+0	6	124	#line 6 "E:\2CHIF\Robotik\Abstand.nxc"
+0	7	124		brtst 4, __ASM_Label_570, __D0main
+0	6	127	#line 6 "E:\2CHIF\Robotik\Abstand.nxc"
+0	7	127	#pragma macro 7
+0	7	127		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3887	150	#line 3887 "E:\2CHIF\Robotik\Abstand.nxc"
+0	6	150	#line 6 "E:\2CHIF\Robotik\Abstand.nxc"
+0	7	150	#line 7 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8	150		set __D0main, 60
+0	7	153	#line 7 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8	153	#pragma macro 7
+0	8	153		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3892	176	#line 3892 "E:\2CHIF\Robotik\Abstand.nxc"
+0	7	176	#line 7 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8	176	#line 8 "E:\2CHIF\Robotik\Abstand.nxc"
+0	9	176		set __D0main, 60
+0	8	179	#line 8 "E:\2CHIF\Robotik\Abstand.nxc"
+0	9	179	#pragma macro 10
+0	9	179		neg __OnRev_Tmp, __D0main
+0	9	182		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3897	205	#line 3897 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8	205	#line 8 "E:\2CHIF\Robotik\Abstand.nxc"
+0	9	205	#line 9 "E:\2CHIF\Robotik\Abstand.nxc"
+0	10	205		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	9	208	#line 9 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8869	208	#line 8869 "NXCDefs.h"
+0	8870	208		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	211	#line 8869 "NXCDefs.h"
+0	9	211	#line 9 "E:\2CHIF\Robotik\Abstand.nxc"
+0	11	211	#line 11 "E:\2CHIF\Robotik\Abstand.nxc"
+0	12	211	#pragma macro 7
+0	12	211		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3912	234	#line 3912 "E:\2CHIF\Robotik\Abstand.nxc"
+0	11	234	#line 11 "E:\2CHIF\Robotik\Abstand.nxc"
+0	12	234	#line 12 "E:\2CHIF\Robotik\Abstand.nxc"
+0	13	234		set __D0main, 60
+0	12	237	#line 12 "E:\2CHIF\Robotik\Abstand.nxc"
+0	13	237	#pragma macro 7
+0	13	237		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3917	260	#line 3917 "E:\2CHIF\Robotik\Abstand.nxc"
+0	12	260	#line 12 "E:\2CHIF\Robotik\Abstand.nxc"
+0	13	260	#line 13 "E:\2CHIF\Robotik\Abstand.nxc"
+0	14	260		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	13	263	#line 13 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8869	263	#line 8869 "NXCDefs.h"
+0	8870	263		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	266	#line 8869 "NXCDefs.h"
+0	13	266	#line 13 "E:\2CHIF\Robotik\Abstand.nxc"
+0	15	266	#line 15 "E:\2CHIF\Robotik\Abstand.nxc"
+0	16	266	#pragma macro 7
+0	16	266		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3928	289	#line 3928 "E:\2CHIF\Robotik\Abstand.nxc"
+0	15	289	#line 15 "E:\2CHIF\Robotik\Abstand.nxc"
+0	16	289	#line 16 "E:\2CHIF\Robotik\Abstand.nxc"
+0	17	289		set __D0main, 60
+0	16	292	#line 16 "E:\2CHIF\Robotik\Abstand.nxc"
+0	17	292	#pragma macro 10
+0	17	292		neg __OnRev_Tmp, __D0main
+0	17	295		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3933	318	#line 3933 "E:\2CHIF\Robotik\Abstand.nxc"
+0	16	318	#line 16 "E:\2CHIF\Robotik\Abstand.nxc"
+0	17	318	#line 17 "E:\2CHIF\Robotik\Abstand.nxc"
+0	18	318		set __D0main, 60
+0	17	321	#line 17 "E:\2CHIF\Robotik\Abstand.nxc"
+0	18	321	#pragma macro 7
+0	18	321		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3938	344	#line 3938 "E:\2CHIF\Robotik\Abstand.nxc"
+0	17	344	#line 17 "E:\2CHIF\Robotik\Abstand.nxc"
+0	18	344	#line 18 "E:\2CHIF\Robotik\Abstand.nxc"
+0	19	344		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	18	347	#line 18 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8869	347	#line 8869 "NXCDefs.h"
+0	8870	347		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	350	#line 8869 "NXCDefs.h"
+0	18	350	#line 18 "E:\2CHIF\Robotik\Abstand.nxc"
+0	20	350	#line 20 "E:\2CHIF\Robotik\Abstand.nxc"
+0	21	350	#pragma macro 7
+0	21	350		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3949	373	#line 3949 "E:\2CHIF\Robotik\Abstand.nxc"
+0	20	373	#line 20 "E:\2CHIF\Robotik\Abstand.nxc"
+0	21	373	#line 21 "E:\2CHIF\Robotik\Abstand.nxc"
+0	22	373		set __D0main, 60
+0	21	376	#line 21 "E:\2CHIF\Robotik\Abstand.nxc"
+0	22	376	#pragma macro 7
+0	22	376		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3954	399	#line 3954 "E:\2CHIF\Robotik\Abstand.nxc"
+0	21	399	#line 21 "E:\2CHIF\Robotik\Abstand.nxc"
+0	22	399	#line 22 "E:\2CHIF\Robotik\Abstand.nxc"
+0	23	399		set __Wait_7qG2_ms_7qG2_000_inline_main, 1500
+0	22	402	#line 22 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8869	402	#line 8869 "NXCDefs.h"
+0	8870	402		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	405	#line 8869 "NXCDefs.h"
+0	22	405	#line 22 "E:\2CHIF\Robotik\Abstand.nxc"
+0	24	405	#line 24 "E:\2CHIF\Robotik\Abstand.nxc"
+0	25	405	#pragma macro 7
+0	25	405		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3965	428	#line 3965 "E:\2CHIF\Robotik\Abstand.nxc"
+0	24	428	#line 24 "E:\2CHIF\Robotik\Abstand.nxc"
+0	25	428	#line 25 "E:\2CHIF\Robotik\Abstand.nxc"
+0	26	428		set __D0main, 60
+0	25	431	#line 25 "E:\2CHIF\Robotik\Abstand.nxc"
+0	26	431	#pragma macro 10
+0	26	431		neg __OnRev_Tmp, __D0main
+0	26	434		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3970	457	#line 3970 "E:\2CHIF\Robotik\Abstand.nxc"
+0	25	457	#line 25 "E:\2CHIF\Robotik\Abstand.nxc"
+0	26	457	#line 26 "E:\2CHIF\Robotik\Abstand.nxc"
+0	27	457		set __D0main, 60
+0	26	460	#line 26 "E:\2CHIF\Robotik\Abstand.nxc"
+0	27	460	#pragma macro 7
+0	27	460		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3975	483	#line 3975 "E:\2CHIF\Robotik\Abstand.nxc"
+0	26	483	#line 26 "E:\2CHIF\Robotik\Abstand.nxc"
+0	27	483	#line 27 "E:\2CHIF\Robotik\Abstand.nxc"
+0	28	483		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	27	486	#line 27 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8869	486	#line 8869 "NXCDefs.h"
+0	8870	486		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	489	#line 8869 "NXCDefs.h"
+0	27	489	#line 27 "E:\2CHIF\Robotik\Abstand.nxc"
+0	29	489	#line 29 "E:\2CHIF\Robotik\Abstand.nxc"
+0	30	489	#pragma macro 7
+0	30	489		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3986	512	#line 3986 "E:\2CHIF\Robotik\Abstand.nxc"
+0	29	512	#line 29 "E:\2CHIF\Robotik\Abstand.nxc"
+0	30	512	#line 30 "E:\2CHIF\Robotik\Abstand.nxc"
+0	31	512		set __D0main, 60
+0	30	515	#line 30 "E:\2CHIF\Robotik\Abstand.nxc"
+0	31	515	#pragma macro 7
+0	31	515		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3991	538	#line 3991 "E:\2CHIF\Robotik\Abstand.nxc"
+0	30	538	#line 30 "E:\2CHIF\Robotik\Abstand.nxc"
+0	31	538	#line 31 "E:\2CHIF\Robotik\Abstand.nxc"
+0	32	538		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	31	541	#line 31 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8869	541	#line 8869 "NXCDefs.h"
+0	8870	541		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	544	#line 8869 "NXCDefs.h"
+0	31	544	#line 31 "E:\2CHIF\Robotik\Abstand.nxc"
+0	33	544	#line 33 "E:\2CHIF\Robotik\Abstand.nxc"
+0	34	544	#pragma macro 7
+0	34	544		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4002	567	#line 4002 "E:\2CHIF\Robotik\Abstand.nxc"
+0	33	567	#line 33 "E:\2CHIF\Robotik\Abstand.nxc"
+0	34	567	#line 34 "E:\2CHIF\Robotik\Abstand.nxc"
+0	35	567		set __D0main, 60
+0	34	570	#line 34 "E:\2CHIF\Robotik\Abstand.nxc"
+0	35	570	#pragma macro 7
+0	35	570		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4007	593	#line 4007 "E:\2CHIF\Robotik\Abstand.nxc"
+0	34	593	#line 34 "E:\2CHIF\Robotik\Abstand.nxc"
+0	35	593	#line 35 "E:\2CHIF\Robotik\Abstand.nxc"
+0	36	593		set __D0main, 60
+0	35	596	#line 35 "E:\2CHIF\Robotik\Abstand.nxc"
+0	36	596	#pragma macro 10
+0	36	596		neg __OnRev_Tmp, __D0main
+0	36	599		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4012	622	#line 4012 "E:\2CHIF\Robotik\Abstand.nxc"
+0	35	622	#line 35 "E:\2CHIF\Robotik\Abstand.nxc"
+0	36	622	#line 36 "E:\2CHIF\Robotik\Abstand.nxc"
+0	37	622		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	36	625	#line 36 "E:\2CHIF\Robotik\Abstand.nxc"
+0	8869	625	#line 8869 "NXCDefs.h"
+0	8870	625		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	628	#line 8869 "NXCDefs.h"
+0	36	628	#line 36 "E:\2CHIF\Robotik\Abstand.nxc"
+0	39	628	#line 39 "E:\2CHIF\Robotik\Abstand.nxc"
+0	41	628	#line 41 "E:\2CHIF\Robotik\Abstand.nxc"
+0	42	628		jmp __ASM_Label_562
+0	41	630	#line 41 "E:\2CHIF\Robotik\Abstand.nxc"
+0	42	630		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	6632	0	#pragma macro 27
+2	6632	0		acquire __CLSWMutex3
+2	6632	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal3
+2	6632	5		or __CLSWArgs3.Port, __constVal3, __LSWriteOptionsVar
+2	6632	9		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	6632	11		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	6632	13		syscall 21, __CLSWArgs3
+2	6632	16		mov __RLSBResult3, __CLSWArgs3.Result
+2	6632	18		release __CLSWMutex3
+2	6632	19	#line 6632 "NXTDefs.h"
+2	6633	19		brtst 5, __RLSBError3, __RLSBResult3
+2	6634	22		set __RLSBIterations3, 60
+2	6636	25	#pragma macro 23
+2	6636	25		acquire __CLSCSMutex3
+2	6636	26		set __CLSCSArgs3.Port, 3
+2	6636	29		syscall 23, __CLSCSArgs3
+2	6636	32		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	6636	34		mov __RLSBResult3, __CLSCSArgs3.Result
+2	6636	36		release __CLSCSMutex3
+2	6636	37	#line 6636 "NXTDefs.h"
+2	6637	37		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	6638	41		brtst 2, __RLSBError3, __RLSBIterations3
+2	6639	44		brtst 0, __RLSBError3, __RLSBResult3
+2	6640	47		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	6642	50		wait2 NA, __constVal1
+2	6643	53		jmp __RLSBDoCheckStatus3
+2	6645	55		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	6646	58		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	6648	62	#pragma macro 25
+2	6648	62		acquire __CLSRMutex3
+2	6648	63		set __CLSRArgs3.Port, 3
+2	6648	66		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	6648	68		syscall 22, __CLSRArgs3
+2	6648	71		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	6648	73		mov __RLSBResult3, __CLSRArgs3.Result
+2	6648	75		release __CLSRMutex3
+2	6648	76	#line 6648 "NXTDefs.h"
+2	6649	76		brtst 5, __RLSBError3, __RLSBResult3
+2	6650	79		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	6651	81		jmp __RLSBDone3
+2	6653	83		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	6655	85		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	6657	88		subret ____ReadLSBytes3_return
+3	42	0	#line 42 "E:\2CHIF\Robotik\Abstand.nxc"
+3	43	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\2CHIF\Robotik\Abstand.nxc
+1	__ResetSensorSubroutine	633	NXTDefs.h
+2	__ReadLSBytes3	646	NXTDefs.h
+3	__initialize_global_data	736	E:\2CHIF\Robotik\Abstand.nxc

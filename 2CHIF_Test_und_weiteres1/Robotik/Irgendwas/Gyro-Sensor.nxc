@@ -1,0 +1,28 @@
+task main()
+{
+  // Sensor
+
+   SetSensorHTGyro(IN_3); // Sensor auf Port 3 initialisieren
+
+    int geschwindigkeit=20;
+  while(true)
+  {
+
+     NumOut(1, 1, SensorHTGyro(IN_3,10), true);   //Wert des Sensors auf dem Display ausgeben
+     OnFwd(OUT_C,geschwindigkeit) ;               //Vorwärtsfahren
+     Wait(100);                                   //warten
+     if(SensorHTGyro(IN_3,10)>=140)              //Wenn sich der Roboter mit einer gewissen geschwindigkeit
+     {                                           //dreht dies ausführen
+     NumOut(1, 1, SensorHTGyro(IN_3,0), true);    //Wert des Sensors auf dem Display ausgeben
+     geschwindigkeit=20;                          // geschwindigkeit zurück setzten
+     Off(OUT_C);                                  //Motor anhalten
+     Wait(1000);                                  //warten
+     }
+     geschwindigkeit++;                           // geschwindigkeit langsam erhöhen
+     if(geschwindigkeit>=95)                      // fals der Sensor nicht auslöst
+     {                                            // damit der Roboter nicht zurück dreht
+      geschwindigkeit=90;                         //geschwindigkeit zuück setzten
+     }
+  }
+
+}

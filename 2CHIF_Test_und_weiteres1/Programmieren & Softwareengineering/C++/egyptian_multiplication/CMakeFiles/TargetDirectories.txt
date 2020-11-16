@@ -1,0 +1,3 @@
+/home/students/i16075/brenner_i16075/egyptain_multiplication/CMakeFiles/edit_cache.dir
+/home/students/i16075/brenner_i16075/egyptain_multiplication/CMakeFiles/rebuild_cache.dir
+/home/students/i16075/brenner_i16075/egyptain_multiplication/CMakeFiles/egyptmul.dir

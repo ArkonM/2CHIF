@@ -1,0 +1,377 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#Vorname {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#Nachname {
+	position: relative;
+	top: 100px;
+	left: 0px;
+}
+
+#NE2 {
+    position: relative;
+    top: 20px;
+    left: -35px;
+}
+
+#NE3 {
+    position: relative;
+    top: 20px;
+    left: -20px;
+}
+#NE4 {
+    position: relative;
+    top: 30px;
+    left: -65px;
+}
+
+#NE5 {
+    position: relative;
+    top: 60px;
+    left: -100px;
+}
+#NE6 {
+    position: relative;
+    top: 60px;
+    left: -85px;
+}
+#NE7 {
+    position: relative;
+    top: 70px;
+    left: -130px;
+}
+#NE8 {
+    position: relative;
+    left: -115px;
+    top: 40px;
+}
+#NE9 {
+    position: relative;
+    left: -120px;
+}
+
+#NE10 {
+    position: relative;
+    left: -165px;
+    top: 70px;
+}
+#NE11 {
+    position: relative;
+    left: -140px;
+    top: 30px;
+}
+#NE12 {
+    position: relative;
+    left: -175px;
+    top: 40px;
+}
+
+#NE13 {
+    position: relative;
+    left: -210px;
+    top: 40px;
+}
+
+#NE14 {
+    position: relative;
+    left: -215px;
+    top: 60px;
+}
+
+#NE15 {
+    position: relative;
+    left: -220px;
+    top: 70px;
+}
+
+
+#NE16 {
+    position: relative;
+    left: -215px;
+    top: 20px;
+}
+#NE17 {
+    position: relative;
+    left: -230px;
+    top: 70px;
+}
+#NE18 {
+    position: relative;
+    left: -235px;
+}
+#NE19 {
+    position: relative;
+    left: -270px;
+    top: 30px;
+}
+#NE20 {
+    position: relative;
+    left: -295px;
+    top: 70px;
+}
+
+
+
+#NE21 {
+    position: relative;
+    left: -290px;
+    top: 20px;
+}
+#NE22 {
+    position: relative;
+    left: -305px;
+    top: 70px;
+}
+#NE23 {
+    position: relative;
+    left: -310px;
+    top: 30px;
+}
+#NE24 {
+    position: relative;
+    left: -325px;
+    top: 50px;
+}
+#NE25 {
+    position: relative;
+    left: -330px;
+    top: 20px;
+}
+#NE26 {
+    position: relative;
+    left: -345px;
+    top: 70px;
+}
+
+
+#NE27 {
+    position: relative;
+    left: -340px;
+    top: 20px;
+}
+#NE28 {
+    position: relative;
+    left: -355px;
+    top: 70px;
+}
+#NE29 {
+    position: relative;
+    left: -360px;
+    top: 30px;
+}
+#NE30 {
+    position: relative;
+    left: -375px;
+    top: 50px;
+}
+#NE31 {
+    position: relative;
+    left: -380px;
+    top: 20px;
+}
+#NE32 {
+    position: relative;
+    left: -395px;
+    top: 70px;
+}
+
+
+
+#NE33 {
+    position: relative;
+    left: -390px;
+    top: 20px;
+}
+#NE34 {
+    position: relative;
+    left: -405px;
+    top: 70px;
+}
+#NE35 {
+    position: relative;
+    left: -410px;
+}
+#NE36 {
+    position: relative;
+    left: -445px;
+    top: 30px;
+}
+#NE37 {
+    position: relative;
+    left: -470px;
+    top: 70px;
+}
+
+
+#NE38 {
+    position: relative;
+    left: -465px;
+    top: 40px;
+}
+#NE39 {
+    position: relative;
+    left: -470px;
+}
+
+#NE40 {
+    position: relative;
+    left: -515px;
+    top: 70px;
+}
+#NE41 {
+    position: relative;
+    left: -490px;
+    top: 30px;
+}
+#NE42 {
+    position: relative;
+    left: -525px;
+    top: 40px;
+}
+
+#NE43 {
+    position: relative;
+    left: -560px;
+    top: 40px;
+}
+
+#NE44 {
+    position: relative;
+    left: -565px;
+    top: 60px;
+}
+
+#NE45 {
+    position: relative;
+    left: -570px;
+    top: 70px;
+}
+
+
+
+
+
+
+#VE1 {
+    position: absolute;
+}
+#VE2 {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+#VE3 {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+#VE4 {
+    position: absolute;
+    left: 50px;
+}
+
+#VE5 {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+#VE6 {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+#VE7 {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+#VE8 {
+    position: absolute;
+    top: 5px;
+    left: 70px;
+}
+#VE9 {
+    position: absolute;
+    top: 65px;
+    left: 70px;
+}
+
+#VE10 {
+    position: absolute;
+    top: 55px;
+    left: 70px;
+}
+
+#VE11 {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+#VE12 {
+    position: absolute;
+    top: 25px;
+    left: 120px;
+}
+#VE13 {
+    position: absolute;
+    top: 45px;
+    left: 110px;
+}
+#VE14 {
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+#VE15 {
+    position: absolute;
+    top: 65px;
+    left: 100px;
+}
+#VE16 {
+    position: absolute;
+    top: 65px;
+    left: 120px;
+}
+
+
+#VE17 {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+}
+#VE18 {
+    position: absolute;
+    top: 65px;
+    left: 150px;
+}
+#VE19 {
+    position: absolute;
+    top: 45px;
+    left: 160px;
+}
+#VE20 {
+    position: absolute;
+    top: 45px;
+    left: 160px;
+}
+#VE21 {
+    position: absolute;
+    top: 25px;
+    left: 180px;
+}
+#VE22 {
+    position: absolute;
+    top: 65px;
+    left: 180px;
+}

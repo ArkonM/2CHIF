@@ -1,0 +1,13 @@
+task main(){
+
+int i = 0;
+while(i < 4){
+        OnRevReg(OUT_BC, 70, OUT_REGMODE_SYNC);
+        Wait(3000);
+        Off(OUT_BC);
+        OnRev(OUT_C, 100);
+        Wait(2000);
+        Off(OUT_C);
+        ++i;
+        }
+}

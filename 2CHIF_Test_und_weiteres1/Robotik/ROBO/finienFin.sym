@@ -1,0 +1,446 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLight_inline_main	6	1	0	4	2
+1	__D0main	6	1	4	4	83
+2	__DU0SetSensorLight_inline_main	5	1	8	4	5
+3	__signed_stack_002main	6	1	12	4	10
+4	__signed_stack_001main	6	1	16	4	30
+5	__main_7qG2_i_7qG2_000	4	1	20	2	16
+6	__main_7qG2_richtung_7qG2_000	4	1	22	2	5
+7	__main_7qG2_lichtwert_7qG2_000	4	1	24	2	4
+8	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	26	1	4
+9	____initialize_global_data_return	1	1	27	1	3
+10	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	28	1	2
+11	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	29	1	2
+12	__constVal96	2	0	30	1	9
+13	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	31	1	2
+14	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	32	1	2
+15	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	33	1	2
+16	__constVal63	2	0	34	1	9
+17	____ResetSensorSubroutine_return	1	1	35	1	3
+18	__constVal2	2	0	36	1	13
+19	__ResetSensorTmp	1	1	37	1	2
+20	__constVal3	2	0	38	1	9
+21	__ResetSensorPort	1	1	39	1	3
+22	__constVal0	2	1	40	1	27
+23	__constVal32	2	0	41	1	27
+24	__OnRev_Tmp	2	1	42	1	8
+25	__PFTmp	1	1	43	1	1
+26	__constVal1	2	0	44	1	10
+27	__TextOutArgs	8	0	4	16	18
+28	__TextOutArgs.Result	2	1	48	1	18
+29	__TextOutArgs.Location	8	0	2	4	18
+30	__TextOutArgs.Location.X	4	1	52	2	18
+31	__TextOutArgs.Location.Y	4	1	54	2	18
+32	__TextOutArgs.Text	7	0	56	4	18
+33	__TextOutArgs.Text.Text_type	1	0	0	1	0
+34	__TextOutArgs.Options	5	1	60	4	18
+35	__OUT_BC	7	0	64	4	1
+36	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	2	2	#line 2 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	3	2		set __main_7qG2_lichtwert_7qG2_000, 49
+0	2	5	#line 2 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	3	5	#line 3 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	4	5		set __main_7qG2_i_7qG2_000, 0
+0	3	8	#line 3 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	4	8	#line 4 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	5	8		set __main_7qG2_richtung_7qG2_000, 0
+0	4	11	#line 4 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	5	11	#line 5 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	6	11		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	5	14	#line 5 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	5	14	#line 5 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	6	14		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4494	16	#line 4494 "NXCDefs.h"
+0	4495	16		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4494	18	#line 4494 "NXCDefs.h"
+0	4494	18	#line 4494 "NXCDefs.h"
+0	4495	18		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4494	20	#line 4494 "NXCDefs.h"
+0	4495	20		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4494	23	#line 4494 "NXCDefs.h"
+0	4495	23		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4494	26	#line 4494 "NXCDefs.h"
+0	4495	26		set __DU0SetSensorLight_inline_main, 5
+0	4494	29	#line 4494 "NXCDefs.h"
+0	4494	29	#line 4494 "NXCDefs.h"
+0	4495	29		jmp __001__ASM_Label_5
+0	4494	31	#line 4494 "NXCDefs.h"
+0	4495	31		set __DU0SetSensorLight_inline_main, 6
+0	4494	34	#line 4494 "NXCDefs.h"
+0	4494	34	#line 4494 "NXCDefs.h"
+0	4495	34		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4428	36	#line 4428 "NXCDefs.h"
+0	4429	36		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4428	40	#line 4428 "NXCDefs.h"
+0	4494	40	#line 4494 "NXCDefs.h"
+0	4495	40	#line 4495 "NXCDefs.h"
+0	4496	40		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4495	42	#line 4495 "NXCDefs.h"
+0	4495	42	#line 4495 "NXCDefs.h"
+0	4496	42		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4495	45	#line 4495 "NXCDefs.h"
+0	4441	45	#line 4441 "NXCDefs.h"
+0	4442	45		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4441	49	#line 4441 "NXCDefs.h"
+0	4495	49	#line 4495 "NXCDefs.h"
+0	4496	49	#line 4496 "NXCDefs.h"
+0	4496	49	#line 4496 "NXCDefs.h"
+0	4459	49	#line 4459 "NXCDefs.h"
+0	4460	49	#pragma macro 4
+0	4460	49		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4460	51		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3822	53	#line 3822 "NXCDefs.h"
+0	4459	53	#line 4459 "NXCDefs.h"
+0	4496	53	#line 4496 "NXCDefs.h"
+0	5	53	#line 5 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	6	53	#line 6 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	7	53		set __D0main, 1
+0	7	56	#line 7 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	8	56		tst 5, __D0main, __D0main
+0	7	59	#line 7 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	8	59		brtst 4, __ASM_Label_567, __D0main
+0	7	62	#line 7 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	8	62		getin __signed_stack_001main, __constVal2, 4
+0	7	66	#line 7 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	7	66	#line 7 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	8	66		set __D0main, 41
+0	7	69	#line 7 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	8	69		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	8	73	#line 8 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	9	73		brtst 4, __ASM_Label_572, __D0main
+0	8	76	#line 8 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	9	76		jmp __ASM_Label_567
+0	8	78	#line 8 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	10	78	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	10	78	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	78		set __signed_stack_001main, 0
+0	10	81	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	10	81	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	81		set __signed_stack_002main, 56
+0	10	84	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	10	84	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	84		getin __D0main, __constVal2, 4
+0	10	88	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	10	88	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	88		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	10	90	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	90		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	10	92	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	92		set __TextOutArgs.Options, 0
+0	10	95	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	95		numtostr __TextOutArgs.Text, __D0main
+0	10	98	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	98		syscall 13, __TextOutArgs
+0	10	101	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	101		mov __D0main, __TextOutArgs.Result
+0	10	103	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	10	103	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	10	103	#line 10 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	103	#line 11 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	12	103		getin __signed_stack_001main, __constVal2, 4
+0	11	107	#line 11 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	11	107	#line 11 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	12	107		mov __D0main, __main_7qG2_lichtwert_7qG2_000
+0	11	109	#line 11 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	12	109		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	12	113	#line 12 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	13	113		brtst 4, __ASM_Label_580, __D0main
+0	12	116	#line 12 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	13	116		set __D0main, 70
+0	12	119	#line 12 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	13	119	#pragma macro 7
+0	13	119		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3904	142	#line 3904 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	12	142	#line 12 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	13	142	#line 13 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	14	142		set __main_7qG2_i_7qG2_000, 0
+0	13	145	#line 13 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	13	145	#line 13 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	15	145	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	145		jmp __ASM_Label_579
+0	15	147	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	15	147	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	147		getin __signed_stack_001main, __constVal2, 4
+0	15	151	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	15	151	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	151		mov __signed_stack_002main, __main_7qG2_lichtwert_7qG2_000
+0	15	153	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	15	153	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	153		set __D0main, 1
+0	15	156	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	156		sub __D0main, __signed_stack_002main, __D0main
+0	15	160	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	160		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	15	164	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	164		brtst 4, __ASM_Label_590, __D0main
+0	15	167	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	167		mov __signed_stack_001main, __main_7qG2_richtung_7qG2_000
+0	15	169	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	15	169	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	169		set __D0main, 0
+0	15	172	#line 15 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	172		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	16	176	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	176		brtst 4, __ASM_Label_588, __D0main
+0	16	179	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	179		set __signed_stack_001main, 0
+0	16	182	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	182	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	182		set __signed_stack_002main, 56
+0	16	185	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	185	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	185		getin __D0main, __constVal2, 4
+0	16	189	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	189	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	189		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	16	191	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	191		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	16	193	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	193		set __TextOutArgs.Options, 0
+0	16	196	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	196		numtostr __TextOutArgs.Text, __D0main
+0	16	199	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	199		syscall 13, __TextOutArgs
+0	16	202	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	202		mov __D0main, __TextOutArgs.Result
+0	16	204	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	204	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	16	204	#line 16 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	204	#line 17 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	18	204		getin __signed_stack_001main, __constVal2, 4
+0	17	208	#line 17 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	17	208	#line 17 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	18	208		set __D0main, 41
+0	17	211	#line 17 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	18	211		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	18	215	#line 18 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	19	215		brtst 4, __ASM_Label_603, __D0main
+0	18	218	#line 18 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	19	218		jmp __ASM_Label_588
+0	18	220	#line 18 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	20	220	#line 20 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	20	220	#line 20 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	21	220		set __D0main, 60
+0	20	223	#line 20 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	21	223	#pragma macro 7
+0	21	223		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4010	246	#line 4010 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	20	246	#line 20 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	21	246	#line 21 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	22	246		set __D0main, 60
+0	21	249	#line 21 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	22	249	#pragma macro 10
+0	22	249		neg __OnRev_Tmp, __D0main
+0	22	252		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4015	275	#line 4015 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	21	275	#line 21 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	22	275	#line 22 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	23	275		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	22	279	#line 22 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	23	279	#line 23 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	24	279		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	23	281	#line 23 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	23	281	#line 23 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	24	281		set __D0main, 800
+0	23	284	#line 23 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	24	284		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	24	288	#line 24 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	25	288		brtst 4, __ASM_Label_610, __D0main
+0	24	291	#line 24 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	25	291		set __main_7qG2_richtung_7qG2_000, 1
+0	24	294	#line 24 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	24	294	#line 24 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	25	294	#line 25 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	26	294		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	25	296	#line 25 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	25	296	#line 25 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	26	296		set __D0main, 1600
+0	25	299	#line 25 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	26	299		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	26	303	#line 26 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	27	303		brtst 4, __ASM_Label_614, __D0main
+0	26	306	#line 26 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	27	306		set __D0main, 60
+0	26	309	#line 26 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	27	309	#pragma macro 10
+0	27	309		neg __OnRev_Tmp, __D0main
+0	27	312		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4057	335	#line 4057 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	26	335	#line 26 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	27	335	#line 27 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	28	335		set __D0main, 60
+0	27	338	#line 27 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	28	338	#pragma macro 7
+0	28	338		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4062	361	#line 4062 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	27	361	#line 27 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	28	361	#line 28 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	29	361		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	28	365	#line 28 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	30	365	#line 30 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	31	365		jmp __ASM_Label_613
+0	30	367	#line 30 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	30	367	#line 30 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	31	367		set __main_7qG2_i_7qG2_000, 0
+0	30	370	#line 30 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	30	370	#line 30 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	33	370	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	33	370	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	370		jmp __ASM_Label_587
+0	33	372	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	33	372	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	372		getin __signed_stack_001main, __constVal2, 4
+0	33	376	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	33	376	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	376		mov __signed_stack_002main, __main_7qG2_lichtwert_7qG2_000
+0	33	378	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	33	378	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	378		set __D0main, 1
+0	33	381	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	381		sub __D0main, __signed_stack_002main, __D0main
+0	33	385	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	385		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	33	389	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	389		brtst 4, __ASM_Label_626, __D0main
+0	33	392	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	392		mov __signed_stack_001main, __main_7qG2_richtung_7qG2_000
+0	33	394	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	33	394	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	394		set __D0main, 1
+0	33	397	#line 33 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	397		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	34	401	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	401		brtst 4, __ASM_Label_624, __D0main
+0	34	404	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	404		set __signed_stack_001main, 0
+0	34	407	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	407	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	407		set __signed_stack_002main, 56
+0	34	410	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	410	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	410		getin __D0main, __constVal2, 4
+0	34	414	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	414	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	414		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	34	416	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	416		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	34	418	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	418		set __TextOutArgs.Options, 0
+0	34	421	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	421		numtostr __TextOutArgs.Text, __D0main
+0	34	424	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	424		syscall 13, __TextOutArgs
+0	34	427	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	427		mov __D0main, __TextOutArgs.Result
+0	34	429	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	429	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	34	429	#line 34 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	429	#line 35 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	36	429		getin __signed_stack_001main, __constVal2, 4
+0	35	433	#line 35 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	35	433	#line 35 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	36	433		set __D0main, 41
+0	35	436	#line 35 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	36	436		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	36	440	#line 36 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	37	440		brtst 4, __ASM_Label_639, __D0main
+0	36	443	#line 36 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	37	443		jmp __ASM_Label_624
+0	36	445	#line 36 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	38	445	#line 38 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	38	445	#line 38 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	39	445		set __D0main, 60
+0	38	448	#line 38 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	39	448	#pragma macro 10
+0	39	448		neg __OnRev_Tmp, __D0main
+0	39	451		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4177	474	#line 4177 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	38	474	#line 38 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	39	474	#line 39 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	40	474		set __D0main, 60
+0	39	477	#line 39 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	40	477	#pragma macro 7
+0	40	477		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4182	500	#line 4182 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	39	500	#line 39 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	40	500	#line 40 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	41	500		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	40	504	#line 40 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	41	504	#line 41 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	42	504		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	41	506	#line 41 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	41	506	#line 41 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	42	506		set __D0main, 800
+0	41	509	#line 41 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	42	509		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	42	513	#line 42 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	43	513		brtst 4, __ASM_Label_646, __D0main
+0	42	516	#line 42 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	43	516		set __main_7qG2_richtung_7qG2_000, 0
+0	42	519	#line 42 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	42	519	#line 42 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	43	519	#line 43 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	44	519		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	43	521	#line 43 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	43	521	#line 43 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	44	521		set __D0main, 1600
+0	43	524	#line 43 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	44	524		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	44	528	#line 44 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	45	528		brtst 4, __ASM_Label_650, __D0main
+0	44	531	#line 44 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	45	531		set __D0main, 60
+0	44	534	#line 44 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	45	534	#pragma macro 7
+0	45	534		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4224	557	#line 4224 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	44	557	#line 44 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	45	557	#line 45 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	46	557		set __D0main, 60
+0	45	560	#line 45 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	46	560	#pragma macro 10
+0	46	560		neg __OnRev_Tmp, __D0main
+0	46	563		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4229	586	#line 4229 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	45	586	#line 45 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	46	586	#line 46 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	47	586		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	46	590	#line 46 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	48	590	#line 48 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	49	590		jmp __ASM_Label_649
+0	48	592	#line 48 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	48	592	#line 48 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	49	592		set __main_7qG2_i_7qG2_000, 0
+0	48	595	#line 48 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	48	595	#line 48 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	49	595	#line 49 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	50	595		jmp __ASM_Label_623
+0	49	597	#line 49 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	52	597	#line 52 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	52	597	#line 52 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	53	597		jmp __ASM_Label_623
+0	52	599	#line 52 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	52	599	#line 52 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	53	599		jmp __ASM_Label_566
+0	52	601	#line 52 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	55	601	#line 55 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	56	601		jmp __ASM_Label_566
+0	55	603	#line 55 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+0	56	603		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	57	0	#line 57 "\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc"
+2	58	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc
+1	__ResetSensorSubroutine	606	NXTDefs.h
+2	__initialize_global_data	619	\\iPData-IF\i16075$\Desktop\robotik\finienFin.nxc

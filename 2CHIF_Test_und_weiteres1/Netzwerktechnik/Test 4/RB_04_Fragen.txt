@@ -1,0 +1,96 @@
+Fragenkatalog zu Foliensatz 3
+
+01) Nenne 5 Teilaufgaben die erledigt werden müssen wenn Daten über ein Netzwerk geschickt werden
+Erkennen der Daten, welche verschickt werden müssen | Aufteiler der daten in Blöcke / Pakete | Hinzufügen der nötigen informationen, wie absenderund Empfänger | Informationen für Fehlerkorrektur hinzufügen | Übergabe der Daten an das Netzwerk 
+
+02) Was versteht man unter einem Protokoll?
+Das Protokoll ist eine Standadisierung für die Adressierung des Absende-, Zielrechners , Definition der physikalischen Größen (Spannungspegel, Bitreihenfolge), den  Aufbau und Inhalt von Datenpaketen und die Fehlererkennung und -behandlung von Nachrichten.
+
+03) Nenne drei unterschiedliche Protokoll-Stack die früher verwendet wurden
+Apple AppleTalk | NetBeui | Novell Netware
+ 
+04) Warum muss jedes Betriebssystem heute TCP/IP unterstützen?
+Man brauch TCP/IP um auf das Internet, welches auf TCP/IP basiert zugreifen zu kännen.
+
+05) Wie lauten die 7 Schichten des OSI-Model-ls
+1 | Physical layer | Data Link Layer | Network Layer | Transport Layer | Session Layer | Presentation Layer | Application Layer |  7
+
+06) Was bedeutet das Akronym OSI?
+Operating System Interconnection Modell
+
+07) Welche Aufgabe hat die Schicht 7 - wie heißt diese Schicht?
+Schicht 7 behandelt den allgemeinen Netzwerkzugang, die Flusskontrolle und die Fehlerbehebung. Sie heißt Anwendungsschicht oder Application Layer
+
+08) Welche Aufgabe hat die Schicht 6 - wie heißt diese Schicht?
+Die Darsetllungschicht übersetzt die Daten in ein für alle Computer verschtändliches Format. Sie trägt außerdem die Verantwortung für die Protokollumwandung ,Datenverschlüsselung, Änderung des Zeichensatzes, der Erweiterung von Grafikbefehlen und der Datenkompression.
+
+09) Welche Aufgabe hat die Schicht 5 - wie heißt diese Schicht?
+Die Sitzungsschicht ermöglicht den Anwendungen eine Verbindung aufzubauen, zu verwenden und zu beenden. Außerdem erkennt sie die Namen von Ressourcen, synchronisiert Benutzeraufgaben, indem Prüfpunkte in den Datenfluss eingefügt werden und steuert den Dialog zwischen den Computern und legt fest, welche Station wann, wie lange sendet.
+
+10) Welche Aufgabe hat die Schicht 4 - wie heißt diese Schicht?
+Schicht 4 ist die Transportschicht und beschäftigt sich mit der Fehlerfreien Übertragung der Pakete in der richtigen Reihenfolge. Außderdem kümmert die Schicht sich um die Aufteilung bzw. Zusammenfassung von Paketen, schickt beim Empfang von Paketen eine Bestätigung und sorgt für die Flusssteuerung und Fehlerbehebung.
+
+11) Welche Aufgabe hat die Schicht 3 - wie heißt diese Schicht?
+Schicht 3 wird Vermittlungsschicht genannt. Sie Adressiert Nachrichten, Überseetzt logische Adressen in Name, das physikalische Gegenstück. Legt eine Route aufgrund der Priorität und der Netzwerkbedingungen fest.
+
+12) Welche Aufgabe hat die Schicht 2 - wie heißt diese Schicht?
+Schicht 2 nennt sich Sicherungsschicht und verpackt die "rohbits" In Datenrahmen. Außerdem ist sie für die fehlerfreie Übertragung der Rahmen über die Bitüertragungsschicht verantwortlich. 
+
+13) Welche Aufgabe hat die Schicht 1 - wie heißt diese Schicht?
+Die Bitübertragungsschicht legt fest, wie das medium an die Netzwerkkarte angeschlossen ist, die Anzahl der Steckkontakte und deren Funktion.
+
+14) Welche Arten der Datenübertrag kennst du unter TCP/IP (genauer unter IPv4 - Folie 19)?
+Unicast | Broadcast | Multicast
+
+15) Die Entscheidung ob ein PC Daten annimmt oder nicht wird in welcher Schicht des OSI-Modells getroffen?
+Diese Entscheidung wird im Layer 2a getroffen.
+
+16) Welche Aufgabe hat die MAC-Schicht und wofür steht die Abkürzung MAC-Schicht?
+MAC (Media Access Control)-Teilschicht der Sicherungsschicht/des Data Link Layer
+Beschreibt den Zugriff der Netzwerkkarte auf die Bitübertragungsschicht
+Tauscht Informationen direkt mit der Netzwerkkarte aus
+Trägt Verantwortung für fehlerfreie Übertragung
+
+17) Nenne zwei unterschiedliche Gründe warum man ein Netzwerk erweitert
+Überwindung von physikalischen Größen | Segmentirung einer Kollisionen Domain 
+
+18) Welche Aufgabe hat ein Repeater und wie funktioniert er?
+Ein repeater ist dazu gedacht alle Daten an alle verbundenen Computer weiterzuleiten. Dieshilft bei der Überwindung der physikalischen Größen eines Netzwerks.
+
+19) Welche Aufgabe hat ein Hub und wie funktioniert er?
+Ein Hub wird in einer Sterntopologie eingesetzt und übertragt die Daten an alle verbundenen Computer.
+
+20) Welche Aufgabe hat eine Bridge und wie funktioniert sie?
+Eine Bridge hat die Aufgabe daten von einen Computer and andere weiterzuleiten. Zu beginn lernt die Bridge an welchem Port welche MAC-Addresse liegt . Nach dieser Lernphase werden die pakete nur noch an den richtigen Port weitergeleitet anstatt an alle.
+
+21) Welche Aufgabe hat ein Switch und wie funktioniert er?
+Ein Switch ertellt eine ikrosegmentierung, d.h. es ist eine Punkt zu Punkt verbindung. --> Keine Kollsionen.
+
+22) Welche Aufgabe hat ein Router und wie funktioniert er?
+Ein Router leitet Datenpakete von einem IP-Segment in ein anderes oder and einen Router weiter. Ein Router muss konfiguriert werden. 
+
+23) Auf welche Layer des OSI-Modells arbeitet ein Repeater?
+1
+
+24) Auf welche Layer des OSI-Modells arbeitet ein Hub?
+1
+
+25) Auf welche Layer des OSI-Modells arbeitet eine Bridge?
+2
+
+26) Auf welche Layer des OSI-Modells arbeitet ein Router?
+3
+
+27) Was versteht man unter dem Begriff Segmentieren eines Netzwerks?
+Ein Netzwerk durch bridges oder ähnliches in einzelne kleine Segmente aufteilen.
+
+28) Warum hilft eine Bridge den Netzwerkverkehr teilweise zu senken? 
+Da sie die Daten nur and den richtigen Empfänger ( nach der Lernpahse ) weiterleitet.
+
+29) Warum wäre eine Bridge keine Lösung für einen starken Netzwerkverkehr der durch ein Broadcast Spiel verursacht wird?
+Weil zu Beginn das Eingangssignal an alle Ausgänge weitergeleitet wird.
+
+30) Was versteht man unter Mikrosegmentierung bei einem Switch?
+<Kommunikation ist eine Punkt zu Punkt Verbindung --> keine Kollisionen.
+
+

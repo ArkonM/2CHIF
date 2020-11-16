@@ -1,0 +1,206 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#Name {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#Vorname {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#VE1 {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+#VE2 {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+#VE3 {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#VE4 {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+
+}
+
+#VE5 {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+
+#VE6 {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+
+#VE7 {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#VE8 {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+#VE9 {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+#VE10 {
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+
+#VE11 {
+	position: absolute;
+	top: 30px;
+	left: 40px;
+}
+
+#VE12 {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+
+#VE13 {
+	position: absolute;
+	top: 70px;
+	left: 60px;
+}
+
+#VE14 {
+	position: absolute;
+	top: 70px;
+	left: 30px;
+}
+
+#VE15 {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+
+#VE16 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#Nachname {
+	position: relative;
+	top: 100px;
+	left: 0px;
+}
+
+#NE1 {
+	position: relative;
+	top:60px;
+	left: 0px;
+}
+
+#NE2 {
+	position: relative;
+	top: 60px;
+	left: -4px;
+}
+
+#NE3 {
+	position: relative;
+	top: 50px;
+	left: -8px;
+}
+
+#NE4 {
+	position: relative;
+	top: 30px;
+	left: -42px;
+}
+
+#NE5 {
+	position: relative;
+	top: 20px;
+	left: -86px;
+}
+
+#NE6 {
+	position: relative;
+	top: 0px;
+	left: -110px;
+}
+
+#NE7 {
+	position: relative;
+	top: 0px;
+	left: -118px;
+}
+
+#NE8 {
+	position: relative;
+	top: -10px;
+	left: -114px;
+}
+
+/*Buchstaben*/
+
+#VA {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#VR {
+	position: absolute;
+	top: 0px;
+	left: 80px;
+}
+
+#VM {
+	position: absolute;
+	top: 0px;
+	left: 130px;
+}
+
+#VI {
+	position: absolute;
+	top: 0px;
+	left: 220px;
+}
+
+#VN {
+	position: absolute;
+	top: 0px;
+	left: 250px;
+}
+
+#SN {
+	position: relative;
+	top: 0px;
+	left: 0px
+}

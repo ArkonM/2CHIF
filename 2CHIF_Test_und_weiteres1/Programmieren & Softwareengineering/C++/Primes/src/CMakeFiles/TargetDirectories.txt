@@ -1,0 +1,3 @@
+/home/students/i16075/Desktop/Primes/src/CMakeFiles/edit_cache.dir
+/home/students/i16075/Desktop/Primes/src/CMakeFiles/rebuild_cache.dir
+/home/students/i16075/Desktop/Primes/src/CMakeFiles/primes.dir
